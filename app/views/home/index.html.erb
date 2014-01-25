@@ -1,0 +1,75 @@
+<header>
+  <section>
+    <h2>TweetLogic</h2>
+    <%= form_tag '#', :class => 'form-search navbar-search form-inline' do -%>
+      <%= label_tag 'query', 'Search', :class => 'visually-hidden' -%>
+      <%= text_field_tag 'query', '', :placeholder => 'Search', :autocomplete => 'off', :spellcheck => 'false', :class => 'search-query' -%>
+      <span class='icon-search icon-large'>
+        <%= submit_tag 'Search', :class => 'nav-search' -%>
+      </span>
+      <div class="btn-group pull-left">
+        <div class='dropdown'>
+          <a class="btn dropdown-toggle disabled" data-toggle="dropdown" href="javascript:void(0)">
+            <span class='icon-cog icon-large'></span>
+          </a>
+          <ul class="dropdown-menu" role='menu'>
+            <li>
+              <select id='geolocation' autocomplete='off'>
+                <option value='' selected='selected'>Anywhere</option>
+                <option value='10mi'>Within 10 miles</option>
+                <option value='50mi'>Within 50 miles</option>
+                <option value='100mi'>Within 100 miles</option>
+                <option value='250mi'>Within 250 miles</option>
+              </select>
+            </li>
+          </ul>
+        </div>
+      </div>
+    <% end %>
+  </section>
+</header>
+
+<section role='results'>
+  <h2>Results</h2>
+
+  <div class='content'><!-- placeholder container for all content generated via templates --></div>
+
+  <script type='text/html' id='no_search'>
+    <div class='no-results'>Search results will show here, but you sort of need to search for something ...</div>
+  </script>
+  <script type='text/html' id='no_results'>
+    <div class='no-results'><b>0</b> results</div>
+  </script>
+  <script type='text/html' id='no_more_results'>
+    <div class='no-results'>No more results</div>
+  </script>
+
+  <script type='text/html' id='loading'>
+    <div class='loading'>
+      <h4>Loading ...</h4>
+      <div class="progress progress-striped active">
+        <div class="bar" style="width: 100%;"></div>
+      </div>
+    </div>
+  </script>
+
+  <script type='text/html' id='search_results'>
+    <ul class='results'>
+      {{#tweets}}
+      <li class='tweet {{class_name}}'>
+        <div class='content'>
+          <small class='time-ago'>{{time_distance}}</small>
+          <div class='header'>
+            <a href='http://twitter.com/{{user.screen_name}}' target='_twitter'>
+              <strong class='fullname'>{{user.name}}</strong>
+              <img class='avatar' src='{{user.profile_image_url}}' width='48px' height='48px' alt='{{user.name}}'/>
+              <span class='username'>@{{user.screen_name}}</span>
+            </a>
+          </div>
+          <p class='text'>{{{text}}}</p>
+        </div>
+      </li>
+      {{/tweets}}
+    </ul>
+  </script>
+</section>

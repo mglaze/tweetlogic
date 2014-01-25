@@ -1,0 +1,28 @@
+<%
+body_class ||= "#{controller.controller_name} #{controller.action_name}"
+%>
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if gt IE 8]><!--> <html xmlns="http://www.w3.org/1999/xhtml"> <!--<![endif]-->
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="Content-Language" content="en" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <% if request.ssl? %>
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noodp" />
+  <% end %>
+  <%= security_tokens -%>
+  <link rel="icon" type="image/png" href="/ruby.png" />
+  <title><%= self.page_title %></title>
+
+  <%= stylesheet_link_tag('application') -%>
+  <%= javascript_include_tag 'vendor/modernizr' -%>
+
+  <%= yield :header %>
+</head>
+<body class="<%= body_class %>">
+  <%= javascript_include_tag 'application' -%>

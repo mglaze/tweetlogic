@@ -1,0 +1,102 @@
+@import "twitter/bootstrap/bootstrap";
+@import "twitter/bootstrap/responsive";
+
+// Set the correct sprite paths
+@iconSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings");
+@iconWhiteSpritePath: asset-path("twitter/bootstrap/glyphicons-halflings-white");
+
+// Set the Font Awesome (Font Awesome is default. You can disable by commenting below lines)
+@fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
+@fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot#iefix");
+@fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
+@fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
+@fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
+
+// Custom colors
+@bodyBackgroundColor: rgb(163, 163, 163);
+
+// Font Awesome
+@import "fontawesome/font-awesome";
+
+// Glyphicons
+@import "twitter/bootstrap/sprites.less";
+
+// Your custom LESS stylesheets goes here
+//
+// Since bootstrap was imported above you have access to its mixins which
+// you may use and inherit here
+//
+// If you'd like to override bootstrap's own variables, you can do so here as well
+// See http://twitter.github.com/bootstrap/customize.html#variables for their names and documentation
+//
+// Example:
+// @linkColor: #ff0000;
+
+// General Layout
+body {background: @bodyBackgroundColor;}
+section {max-width: 600px; margin: 0 auto;
+  &[role='results'] {margin: 35px auto; background: @white; border: 1px solid darken(@bodyBackgroundColor, 10%); .border-radius(10px);
+    h2 {margin: 0; padding: 8px 15px; border-bottom: 1px solid #e8e8e8; #font > .shorthand(20px, bold, 1em); }
+    
+    // Loading progress
+    .loading { padding: 20px 15px;
+      h4 {#font > .shorthand(16px, 700, 20px); margin: 0; width: 100px; float: left;}
+      .progress {margin: 0;}
+    }
+
+    // No Results
+    .no-results {padding: 20px 15px;}
+
+    ul.results { list-style-type: none; margin: 0; padding: 0;
+      li.tweet {padding: 9px 15px; border-bottom: 1px solid #e8e8e8; .clearfix; .transition(all 0.25s); .transition(background 1s);
+        &:hover {background: #f8f8f8;}
+        .content {margin-left: 58px;
+          .header a {
+            &:hover {text-decoration: none;
+              .fullname {text-decoration: underline; color: #0084B4;}
+            }
+            img {float: left; margin-left: -58px; margin-top: 3px;}
+            .fullname {font-weight: bold; color: #333;}
+            .username {font-size: 12px; color: #999;}
+          }
+          .time-ago {float: right; color: #999; font-size: 12px;}
+        }
+        &.new {background-color:#ffc;}
+      }
+    }
+  }
+}
+
+// Header/Footer (with nav search)
+header {height: 70px; #gradient > .vertical(); color: @white; text-align: center;
+  h2 {color: #999; line-height: 70px; margin: 0; padding: 0; display: inline-block; float: left; background: asset-url('twitter-icon.png') no-repeat left center; padding-left: 50px;}
+  form.navbar-search {margin: 20px 0; width: 300px; text-align: center; float: right;
+    .search-query {position: absolute; left: 0; padding-right: 30px; top: 0; display: block; #font > .shorthand(15px, normal, 1); .box-sizing(border-box); width: 100%; height: 2em; background: #f0f0f0; .transition(all 0.5s); .placeholder(darken(@placeholderText, 20%));
+      &:focus {background: @white; .placeholder(@placeholderText);}
+    }
+    .icon-search {position: absolute; right: 5px; top: 7px; .square(22px); color: #444;
+      input.nav-search {.square(22px); background: transparent; text-indent: -10000px; position: absolute; left: 0; top: 0; border: 0;}
+    }
+    .btn-group {position: absolute; right: -55px; color: #333; display: none; // hidden by default - geolocation support will make it visible
+      .dropdown-menu {text-align: left;
+        li {padding: 2px 12px;}
+      }
+      .icon-cog {padding: 2px 0 0; display: inline-block;}
+    }
+  }
+}
+
+// Transitions
+a, input, textarea, button, a * {.transition(all 0.5s);}
+
+.visually-hidden {border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+
+// IE-specific styles
+.lt-ie9 {
+  header form.navbar-search  .btn-group .btn {padding-bottom: 5px;}
+}
+
+// Geolocation support
+.geolocation header form.navbar-search { margin-right: 55px;
+  .btn-group {display: inline-block;}
+}

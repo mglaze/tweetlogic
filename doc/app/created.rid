@@ -1,0 +1,8 @@
+Sat, 25 Jan 2014 13:30:27 -0500
+doc/README_FOR_APP	Sat, 25 Jan 2014 13:04:08 -0500
+app/controllers/application_controller.rb	Sat, 25 Jan 2014 13:04:08 -0500
+app/controllers/home_controller.rb	Sat, 25 Jan 2014 13:04:08 -0500
+app/controllers/twitter_controller.rb	Sat, 25 Jan 2014 13:04:08 -0500
+app/helpers/application_helper.rb	Sat, 25 Jan 2014 13:04:08 -0500
+app/helpers/home_helper.rb	Sat, 25 Jan 2014 13:04:08 -0500
+app/helpers/layout_helper.rb	Sat, 25 Jan 2014 13:04:08 -0500

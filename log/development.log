@@ -1,0 +1,1469 @@
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Twitter API Configs
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 13:18:07 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/core (3.1ms)
+Compiled bootstrap_and_overrides.css  (729ms)  (pid 27279)
+Compiled application.css  (736ms)  (pid 27279)
+Compiled vendor/modernizr.js  (0ms)  (pid 27279)
+Compiled jquery.js  (1ms)  (pid 27279)
+Compiled jquery_ujs.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-transition.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-alert.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-modal.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-dropdown.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-scrollspy.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-tab.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-tooltip.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-popover.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-button.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-collapse.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-carousel.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-typeahead.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap/bootstrap-affix.js  (0ms)  (pid 27279)
+Compiled twitter/bootstrap.js  (181ms)  (pid 27279)
+Compiled vendor/underscore.js  (0ms)  (pid 27279)
+Compiled vendor/backbone.js  (0ms)  (pid 27279)
+Compiled vendor/mustache.js  (0ms)  (pid 27279)
+Compiled vendor/moment.js  (0ms)  (pid 27279)
+Compiled vendor/jquery.appear.js  (0ms)  (pid 27279)
+Compiled searcher.js  (26ms)  (pid 27279)
+Compiled results_model.js  (118ms)  (pid 27279)
+Compiled results_view.js  (178ms)  (pid 27279)
+Compiled router.js  (278ms)  (pid 27279)
+Compiled application.js  (554ms)  (pid 27279)
+  Rendered shared/_header.html.erb (1472.5ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+ PARAMETERS: {"controller"=>"home", "action"=>"index"}
+Completed 200 OK in 1494ms (Views: 1493.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /bootstrap_and_overrides.css - 200 OK (7ms)
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /vendor/modernizr.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /jquery.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (21ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap.js - 200 OK (12ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (3ms)
+
+
+Started GET "/assets/vendor/underscore.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /vendor/underscore.js - 200 OK (1ms)
+
+
+Started GET "/assets/vendor/backbone.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /vendor/backbone.js - 200 OK (1ms)
+
+
+Started GET "/assets/vendor/mustache.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /vendor/mustache.js - 200 OK (1ms)
+
+
+Started GET "/assets/vendor/moment.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /vendor/moment.js - 200 OK (2ms)
+
+
+Started GET "/assets/vendor/jquery.appear.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /vendor/jquery.appear.js - 200 OK (1ms)
+
+
+Started GET "/assets/searcher.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /searcher.js - 200 OK (1ms)
+
+
+Started GET "/assets/results_model.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /results_model.js - 200 OK (1ms)
+
+
+Started GET "/assets/results_view.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /results_view.js - 200 OK (2ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /router.js - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /application.js - 200 OK (18ms)
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /twitter-icon.png - 200 OK (3ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-01-25 13:18:09 -0500
+Served asset /fontawesome-webfont.woff - 200 OK (5ms)
+
+
+Started GET "/twitter/search?q=PreachMuzak&geocode=33.7553772%2C-84.3811149%2C250mi" for 127.0.0.1 at 2014-01-25 13:18:43 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"q"=>"PreachMuzak", "geocode"=>"33.7553772,-84.3811149,250mi"}
+ PARAMETERS: {"geocode"=>"33.7553772,-84.3811149,250mi"}
+Completed 200 OK in 969ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426002454887813119&q=PreachMuzak&geocode=33.7553772%2C-84.3811149%2C250mi&include_entities=1" for 127.0.0.1 at 2014-01-25 13:18:51 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426002454887813119", "q"=>"PreachMuzak", "geocode"=>"33.7553772,-84.3811149,250mi", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426002454887813119", "geocode"=>"33.7553772,-84.3811149,250mi", "include_entities"=>"1"}
+Completed 200 OK in 549ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?q=Preachfan&geocode=33.7553772%2C-84.3811149%2C250mi" for 127.0.0.1 at 2014-01-25 13:19:03 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"q"=>"Preachfan", "geocode"=>"33.7553772,-84.3811149,250mi"}
+ PARAMETERS: {"geocode"=>"33.7553772,-84.3811149,250mi"}
+Completed 200 OK in 688ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?q=Preachfan" for 127.0.0.1 at 2014-01-25 13:19:29 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"q"=>"Preachfan"}
+ PARAMETERS: {}
+Completed 200 OK in 840ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=427014915488886783&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:19:34 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"427014915488886783", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"427014915488886783", "include_entities"=>"1"}
+Completed 200 OK in 490ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427136104160980993&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:20:04 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427136104160980993", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427136104160980993", "include_entities"=>"1"}
+Completed 200 OK in 684ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427143771713978368&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:21:04 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427143771713978368", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427143771713978368", "include_entities"=>"1"}
+Completed 200 OK in 458ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427143957848420352&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:22:05 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427143957848420352", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427143957848420352", "include_entities"=>"1"}
+Completed 200 OK in 416ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427144280034279424&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:23:05 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427144280034279424", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427144280034279424", "include_entities"=>"1"}
+Completed 200 OK in 836ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427144535794143232&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:24:06 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427144535794143232", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427144535794143232", "include_entities"=>"1"}
+Completed 200 OK in 292ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427144788241301504&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:25:06 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427144788241301504", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427144788241301504", "include_entities"=>"1"}
+Completed 200 OK in 426ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427145042428321792&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:26:07 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427145042428321792", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427145042428321792", "include_entities"=>"1"}
+Completed 200 OK in 286ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426893207822032896&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:26:47 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426893207822032896", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426893207822032896", "include_entities"=>"1"}
+Completed 200 OK in 870ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426803839841210367&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:26:49 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426803839841210367", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426803839841210367", "include_entities"=>"1"}
+Completed 200 OK in 380ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426673371196440575&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:26:51 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426673371196440575", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426673371196440575", "include_entities"=>"1"}
+Completed 200 OK in 324ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426574894756016127&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:26:54 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426574894756016127", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426574894756016127", "include_entities"=>"1"}
+Completed 200 OK in 329ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426451082454511615&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:26:58 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426451082454511615", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426451082454511615", "include_entities"=>"1"}
+Completed 200 OK in 885ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426335712737513471&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:27:01 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426335712737513471", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426335712737513471", "include_entities"=>"1"}
+Completed 200 OK in 466ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426215886442495999&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:27:02 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426215886442495999", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426215886442495999", "include_entities"=>"1"}
+Completed 200 OK in 448ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426109508247883775&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:27:04 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426109508247883775", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426109508247883775", "include_entities"=>"1"}
+Completed 200 OK in 477ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427145294690516992&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:27:07 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427145294690516992", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427145294690516992", "include_entities"=>"1"}
+Completed 200 OK in 821ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427145550287626241&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:28:09 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427145550287626241", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427145550287626241", "include_entities"=>"1"}
+Completed 200 OK in 836ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427145809121902592&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:29:10 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427145809121902592", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427145809121902592", "include_entities"=>"1"}
+Completed 200 OK in 827ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427146063510638592&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:30:11 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427146063510638592", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427146063510638592", "include_entities"=>"1"}
+Completed 200 OK in 1149ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Twitter API Configs
+
+
+Started GET "/twitter/search?since_id=427146321560993792&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:31:13 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427146321560993792", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427146321560993792", "include_entities"=>"1"}
+Completed 200 OK in 557ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 13:31:46 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/core (3.1ms)
+  Rendered shared/_header.html.erb (125.1ms)
+  Rendered shared/_footer.html.erb (0.3ms)
+ PARAMETERS: {"controller"=>"home", "action"=>"index"}
+Completed 200 OK in 141ms (Views: 141.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /vendor/modernizr.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendor/underscore.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /vendor/underscore.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/backbone.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /vendor/backbone.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendor/mustache.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /vendor/mustache.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/vendor/moment.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /vendor/moment.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/vendor/jquery.appear.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /vendor/jquery.appear.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/searcher.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /searcher.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/results_model.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /results_model.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/results_view.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /results_view.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /router.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /twitter-icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-01-25 13:31:47 -0500
+Served asset /fontawesome-webfont.woff - 304 Not Modified (1ms)
+
+
+Started GET "/twitter/search?q=preachmuzak" for 127.0.0.1 at 2014-01-25 13:32:04 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"q"=>"preachmuzak"}
+ PARAMETERS: {}
+Completed 200 OK in 861ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427146577908482048&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:32:14 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427146577908482048", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427146577908482048", "include_entities"=>"1"}
+Completed 200 OK in 436ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427107528585904128&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:33:05 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427107528585904128", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427107528585904128", "include_entities"=>"1"}
+Completed 200 OK in 813ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427146834797420544&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:33:15 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427146834797420544", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427146834797420544", "include_entities"=>"1"}
+Completed 200 OK in 418ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147050036494336&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:34:06 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147050036494336", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147050036494336", "include_entities"=>"1"}
+Completed 200 OK in 793ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147090435661825&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:34:16 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147090435661825", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147090435661825", "include_entities"=>"1"}
+Completed 200 OK in 441ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147305402531841&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:35:07 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147305402531841", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147305402531841", "include_entities"=>"1"}
+Completed 200 OK in 646ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147347047378944&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:35:17 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147347047378944", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147347047378944", "include_entities"=>"1"}
+Completed 200 OK in 310ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147559895711744&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:07 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147559895711744", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147559895711744", "include_entities"=>"1"}
+Completed 200 OK in 781ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147602203660288&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:18 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147602203660288", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147602203660288", "include_entities"=>"1"}
+Completed 200 OK in 813ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426494083519897600&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:19 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426494083519897600", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426494083519897600", "include_entities"=>"1"}
+Completed 200 OK in 481ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426002456271933439&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:20 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426002456271933439", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426002456271933439", "include_entities"=>"1"}
+Completed 200 OK in 550ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=426002453423980543&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:22 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"426002453423980543", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"426002453423980543", "include_entities"=>"1"}
+Completed 200 OK in 476ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=425719689914773503&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:23 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"425719689914773503", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"425719689914773503", "include_entities"=>"1"}
+Completed 200 OK in 477ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=425701791779807231&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:25 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"425701791779807231", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"425701791779807231", "include_entities"=>"1"}
+Completed 200 OK in 510ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?max_id=424753795563028481&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:36:26 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"max_id"=>"424753795563028481", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"max_id"=>"424753795563028481", "include_entities"=>"1"}
+Completed 200 OK in 487ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147814800744449&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:37:09 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147814800744449", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147814800744449", "include_entities"=>"1"}
+Completed 200 OK in 826ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427147859943645186&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:37:19 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427147859943645186", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427147859943645186", "include_entities"=>"1"}
+Completed 200 OK in 694ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148073870323712&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:38:10 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148073870323712", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148073870323712", "include_entities"=>"1"}
+Completed 200 OK in 677ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148113996812288&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:38:20 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148113996812288", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148113996812288", "include_entities"=>"1"}
+Completed 200 OK in 691ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148327709200384&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:39:11 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148327709200384", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148327709200384", "include_entities"=>"1"}
+Completed 200 OK in 793ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148370272993280&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:39:21 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148370272993280", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148370272993280", "include_entities"=>"1"}
+Completed 200 OK in 832ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148584157331458&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:40:12 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148584157331458", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148584157331458", "include_entities"=>"1"}
+Completed 200 OK in 1756ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148627580944386&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:40:22 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148627580944386", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148627580944386", "include_entities"=>"1"}
+Completed 200 OK in 844ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148843797340160&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:41:14 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148843797340160", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148843797340160", "include_entities"=>"1"}
+Completed 200 OK in 844ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427148883098341376&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:41:23 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427148883098341376", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427148883098341376", "include_entities"=>"1"}
+Completed 200 OK in 1761ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149098303913984&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:42:15 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149098303913984", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149098303913984", "include_entities"=>"1"}
+Completed 200 OK in 788ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149139118661632&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:42:25 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149139118661632", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149139118661632", "include_entities"=>"1"}
+Completed 200 OK in 827ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149357620527105&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:43:16 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149357620527105", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149357620527105", "include_entities"=>"1"}
+Completed 200 OK in 658ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149396866658304&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:43:26 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149396866658304", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149396866658304", "include_entities"=>"1"}
+Completed 200 OK in 536ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149611011031040&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:44:17 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149611011031040", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149611011031040", "include_entities"=>"1"}
+Completed 200 OK in 812ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149651427356672&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:44:27 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149651427356672", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149651427356672", "include_entities"=>"1"}
+Completed 200 OK in 685ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149866456723456&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:45:18 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149866456723456", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149866456723456", "include_entities"=>"1"}
+Completed 200 OK in 793ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427149909276368896&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:45:28 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427149909276368896", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427149909276368896", "include_entities"=>"1"}
+Completed 200 OK in 431ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150123245010944&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:46:19 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150123245010944", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150123245010944", "include_entities"=>"1"}
+Completed 200 OK in 798ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150162872369152&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:46:29 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150162872369152", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150162872369152", "include_entities"=>"1"}
+Completed 200 OK in 628ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150379093344256&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:47:20 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150379093344256", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150379093344256", "include_entities"=>"1"}
+Completed 200 OK in 785ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150421140832256&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:47:30 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150421140832256", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150421140832256", "include_entities"=>"1"}
+Completed 200 OK in 410ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150633292926977&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:48:21 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150633292926977", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150633292926977", "include_entities"=>"1"}
+Completed 200 OK in 808ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150675554729984&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:48:31 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150675554729984", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150675554729984", "include_entities"=>"1"}
+Completed 200 OK in 704ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150889669758976&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:49:22 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150889669758976", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150889669758976", "include_entities"=>"1"}
+Completed 200 OK in 927ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427150934456537088&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:49:32 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427150934456537088", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427150934456537088", "include_entities"=>"1"}
+Completed 200 OK in 816ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151148190269440&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:50:23 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151148190269440", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151148190269440", "include_entities"=>"1"}
+Completed 200 OK in 669ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151184042815489&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:50:33 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151184042815489", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151184042815489", "include_entities"=>"1"}
+Completed 200 OK in 850ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151401077055489&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:51:24 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151401077055489", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151401077055489", "include_entities"=>"1"}
+Completed 200 OK in 810ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151443641257984&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:51:34 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151443641257984", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151443641257984", "include_entities"=>"1"}
+Completed 200 OK in 833ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151659496931329&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:52:25 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151659496931329", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151659496931329", "include_entities"=>"1"}
+Completed 200 OK in 808ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151700961423360&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:52:35 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151700961423360", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151700961423360", "include_entities"=>"1"}
+Completed 200 OK in 418ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151913360957440&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:53:26 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151913360957440", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151913360957440", "include_entities"=>"1"}
+Completed 200 OK in 804ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427151954884964352&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:53:36 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427151954884964352", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427151954884964352", "include_entities"=>"1"}
+Completed 200 OK in 687ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427152169432018944&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:54:27 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427152169432018944", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427152169432018944", "include_entities"=>"1"}
+Completed 200 OK in 737ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427152210091589632&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:54:37 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427152210091589632", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427152210091589632", "include_entities"=>"1"}
+Completed 200 OK in 282ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427152424239775744&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:55:28 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427152424239775744", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427152424239775744", "include_entities"=>"1"}
+Completed 200 OK in 868ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427152465197146112&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:55:38 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427152465197146112", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427152465197146112", "include_entities"=>"1"}
+Completed 200 OK in 909ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427152678209470464&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:56:29 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427152678209470464", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427152678209470464", "include_entities"=>"1"}
+Completed 200 OK in 864ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427152724413927424&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:56:39 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427152724413927424", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427152724413927424", "include_entities"=>"1"}
+Completed 200 OK in 5650ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427152939422343168&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:57:30 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427152939422343168", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427152939422343168", "include_entities"=>"1"}
+Completed 200 OK in 757ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427153001749286912&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:57:45 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153001749286912", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427153001749286912", "include_entities"=>"1"}
+Completed 200 OK in 751ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427153191541551104&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:58:31 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153191541551104", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427153191541551104", "include_entities"=>"1"}
+Completed 200 OK in 907ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427153254712360960&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:58:46 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153254712360960", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427153254712360960", "include_entities"=>"1"}
+Completed 200 OK in 807ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427153445359849472&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 13:59:32 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153445359849472", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427153445359849472", "include_entities"=>"1"}
+Completed 200 OK in 894ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427153510908448769&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 13:59:47 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153510908448769", "q"=>"Preachfan", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427153510908448769", "include_entities"=>"1"}
+Completed 200 OK in 441ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427153704731836416&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:00:33 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153704731836416", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427153704731836416", "include_entities"=>"1"}
+Completed 200 OK in 716ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427153766756798464&q=Preachfan&include_entities=1" for 127.0.0.1 at 2014-01-25 14:01:00 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153766756798464", "q"=>"Preachfan", "include_entities"=>"1"}
+Completed 500 Internal Server Error in 2992ms
+
+Twitter::Error::ClientError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/twitter_controller.rb:18:in `search'
+
+
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/twitter/search?since_id=427153962115276800&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:01:38 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427153962115276800", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427153962115276800", "include_entities"=>"1"}
+Completed 200 OK in 281ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427154229095329792&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:02:39 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427154229095329792", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427154229095329792", "include_entities"=>"1"}
+Completed 200 OK in 846ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427154488688771072&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:03:40 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427154488688771072", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427154488688771072", "include_entities"=>"1"}
+Completed 200 OK in 815ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427154745145323520&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:04:41 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427154745145323520", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427154745145323520", "include_entities"=>"1"}
+Completed 200 OK in 661ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427154998590713856&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:05:42 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427154998590713856", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427154998590713856", "include_entities"=>"1"}
+Completed 200 OK in 419ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427155253037764608&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:06:43 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427155253037764608", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427155253037764608", "include_entities"=>"1"}
+Completed 200 OK in 842ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427155511969325056&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:07:44 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427155511969325056", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427155511969325056", "include_entities"=>"1"}
+Completed 200 OK in 416ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427155766135767041&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:08:45 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427155766135767041", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427155766135767041", "include_entities"=>"1"}
+Completed 200 OK in 830ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427156024420601856&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:09:46 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427156024420601856", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427156024420601856", "include_entities"=>"1"}
+Completed 200 OK in 807ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427156279745060864&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:10:47 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427156279745060864", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427156279745060864", "include_entities"=>"1"}
+Completed 200 OK in 823ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427156534335131648&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:11:47 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427156534335131648", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427156534335131648", "include_entities"=>"1"}
+Completed 200 OK in 811ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427156789784616961&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:12:48 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427156789784616961", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427156789784616961", "include_entities"=>"1"}
+Completed 200 OK in 835ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427157046212186112&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:13:49 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427157046212186112", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427157046212186112", "include_entities"=>"1"}
+Completed 200 OK in 828ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427157299988537344&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:14:50 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427157299988537344", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427157299988537344", "include_entities"=>"1"}
+Completed 200 OK in 820ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427157555534516224&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:15:51 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427157555534516224", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427157555534516224", "include_entities"=>"1"}
+Completed 200 OK in 997ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427157812964524032&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:16:53 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427157812964524032", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427157812964524032", "include_entities"=>"1"}
+Completed 200 OK in 817ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427158070762815489&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:17:54 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427158070762815489", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427158070762815489", "include_entities"=>"1"}
+Completed 200 OK in 815ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427158327278067713&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:18:54 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427158327278067713", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427158327278067713", "include_entities"=>"1"}
+Completed 200 OK in 839ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427158581021245441&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:19:55 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427158581021245441", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427158581021245441", "include_entities"=>"1"}
+Completed 200 OK in 819ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427158836198137857&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:20:56 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427158836198137857", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427158836198137857", "include_entities"=>"1"}
+Completed 200 OK in 833ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427159091731894272&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:21:57 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427159091731894272", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427159091731894272", "include_entities"=>"1"}
+Completed 200 OK in 427ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427159345668063232&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:22:57 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427159345668063232", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427159345668063232", "include_entities"=>"1"}
+Completed 200 OK in 791ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427159600170012672&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:23:58 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427159600170012672", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427159600170012672", "include_entities"=>"1"}
+Completed 200 OK in 882ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427159856110649344&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:24:59 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427159856110649344", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427159856110649344", "include_entities"=>"1"}
+Completed 200 OK in 811ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427160110234759168&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:26:00 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427160110234759168", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427160110234759168", "include_entities"=>"1"}
+Completed 200 OK in 812ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427160366351523840&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:27:01 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427160366351523840", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427160366351523840", "include_entities"=>"1"}
+Completed 200 OK in 920ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427160621503635456&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:28:02 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427160621503635456", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427160621503635456", "include_entities"=>"1"}
+Completed 200 OK in 896ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427160876689285120&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:29:03 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427160876689285120", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427160876689285120", "include_entities"=>"1"}
+Completed 200 OK in 1225ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427161129882619904&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:30:04 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427161129882619904", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427161129882619904", "include_entities"=>"1"}
+Completed 200 OK in 883ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427161386008207360&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:31:05 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427161386008207360", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427161386008207360", "include_entities"=>"1"}
+Completed 200 OK in 410ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427161642317938688&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:32:05 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427161642317938688", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427161642317938688", "include_entities"=>"1"}
+Completed 200 OK in 910ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427161897721663488&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 14:56:09 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427161897721663488", "q"=>"preachmuzak", "include_entities"=>"1"}
+Completed 500 Internal Server Error in 2977ms
+
+Twitter::Error::ClientError (getaddrinfo: nodename nor servname provided, or not known):
+  app/controllers/twitter_controller.rb:18:in `search'
+
+
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 14:59:16 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/core (1.1ms)
+  Rendered shared/_header.html.erb (110.0ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+ PARAMETERS: {"controller"=>"home", "action"=>"index"}
+Completed 200 OK in 153ms (Views: 152.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /vendor/modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/underscore.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /vendor/underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/mustache.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /vendor/mustache.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/backbone.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /vendor/backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/moment.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /vendor/moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.appear.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /vendor/jquery.appear.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searcher.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /searcher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/results_model.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /results_model.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/results_view.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /results_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Served asset /twitter-icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/twitter/search?q=preachmuzak" for 127.0.0.1 at 2014-01-25 14:59:17 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"q"=>"preachmuzak"}
+ PARAMETERS: {}
+Completed 200 OK in 818ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-01-25 14:59:18 -0500
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/twitter/search?since_id=427107528585904128&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 15:00:18 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427107528585904128", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427107528585904128", "include_entities"=>"1"}
+Completed 200 OK in 810ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427168995608125440&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 15:01:19 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427168995608125440", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427168995608125440", "include_entities"=>"1"}
+Completed 200 OK in 861ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/core (0.5ms)
+  Rendered shared/_header.html.erb (67.4ms)
+  Rendered shared/_footer.html.erb (0.0ms)
+ PARAMETERS: {"controller"=>"home", "action"=>"index"}
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /bootstrap_and_overrides.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /vendor/modernizr.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-transition.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-alert.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-modal.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-tab.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-popover.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-button.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/underscore.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /vendor/underscore.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-affix.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/backbone.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /vendor/backbone.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/mustache.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /vendor/mustache.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/moment.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /vendor/moment.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/vendor/jquery.appear.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /vendor/jquery.appear.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/searcher.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /searcher.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/results_model.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /results_model.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/results_view.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /results_view.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/router.js?body=1" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /router.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter-icon.png" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Served asset /twitter-icon.png - 304 Not Modified (0ms)
+
+
+Started GET "/twitter/search?q=preachmuzak" for 127.0.0.1 at 2014-01-25 15:02:08 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"q"=>"preachmuzak"}
+ PARAMETERS: {}
+Completed 200 OK in 1136ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2014-01-25 15:02:09 -0500
+Served asset /fontawesome-webfont.woff - 304 Not Modified (0ms)
+
+
+Started GET "/twitter/search?since_id=427107528585904128&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 15:03:09 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427107528585904128", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427107528585904128", "include_entities"=>"1"}
+Completed 200 OK in 408ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=427169712724664320&q=preachmuzak&include_entities=1" for 127.0.0.1 at 2014-01-25 15:04:10 -0500
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"427169712724664320", "q"=>"preachmuzak", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"427169712724664320", "include_entities"=>"1"}
+Completed 200 OK in 835ms (Views: 0.1ms | ActiveRecord: 0.0ms)
