@@ -20,4 +20,11 @@ class TwitterController < ApplicationController
     render :json => results.to_json
   end
 
+  def user_mentions
+    if params[:l].blank?
+      render :json => { :error => 'Please enter a username.'}
+      return
+    end
+    @user_mentions ||= entities(Twitter::Entity::UserMention, :user_mentions)
+  end
 end

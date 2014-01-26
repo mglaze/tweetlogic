@@ -3,7 +3,7 @@
     <h2>TweetLogic</h2>
     <%= form_tag '#', :class => 'form-search navbar-search form-inline' do -%>
       <%= label_tag 'query', 'Search', :class => 'visually-hidden' -%>
-      <%= text_field_tag 'query', '', :placeholder => 'Search', :autocomplete => 'off', :spellcheck => 'false', :class => 'search-query' -%>
+      <%= text_field_tag 'query', '', :placeholder => 'Search', :autocomplete => 'on', :spellcheck => 'false', :class => 'search-query' -%>
       <span class='icon-search icon-large'>
         <%= submit_tag 'Search', :class => 'nav-search' -%>
       </span>
@@ -26,6 +26,13 @@
         </div>
       </div>
     <% end %>
+    <%= form_tag '#', :class => 'form-search navbar-search form-inline' do -%>
+      <%= label_tag 'query', 'Mentions', :class => 'visually-hidden' -%>
+      <%= text_field_tag 'query', '', :placeholder => 'Mentions', :autocomplete => 'on', :spellcheck => 'false', :class => 'search-query' -%>
+    <span class='icon-search icon-large'>
+        <%= submit_tag 'Mentions', :class => 'nav-search' -%>
+      </span>
+    <%end%>
   </section>
 </header>
 

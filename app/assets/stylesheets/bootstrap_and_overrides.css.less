@@ -34,13 +34,25 @@
 
 // General Layout
 body {background: @bodyBackgroundColor;}
-section {max-width: 600px; margin: 0 auto;
-  &[role='results'] {margin: 35px auto; background: @white; border: 1px solid darken(@bodyBackgroundColor, 10%); .border-radius(10px);
-    h2 {margin: 0; padding: 8px 15px; border-bottom: 1px solid #e8e8e8; #font > .shorthand(20px, bold, 1em); }
+section {
+  max-width: 600px; 
+  margin: 0 auto;
+  &[role='results'] {
+    margin: 35px auto; 
+    background: @white; 
+    border: 1px solid darken(@bodyBackgroundColor, 10%); 
+    .border-radius(10px);
+    h2 {
+      margin: 0; 
+      padding: 8px 15px; 
+      border-bottom: 1px solid #e8e8e8; 
+      #font > .shorthand(20px, bold, 1em); }
     
     // Loading progress
-    .loading { padding: 20px 15px;
-      h4 {#font > .shorthand(16px, 700, 20px); margin: 0; width: 100px; float: left;}
+    .loading { 
+      padding: 20px 15px;
+      h4 {#font > .shorthand(16px, 700, 20px); 
+        margin: 0; width: 100px; float: left;}
       .progress {margin: 0;}
     }
 
@@ -68,20 +80,64 @@ section {max-width: 600px; margin: 0 auto;
 }
 
 // Header/Footer (with nav search)
-header {height: 70px; #gradient > .vertical(); color: @white; text-align: center;
-  h2 {color: #999; line-height: 70px; margin: 0; padding: 0; display: inline-block; float: left; background: asset-url('twitter-icon.png') no-repeat left center; padding-left: 50px;}
-  form.navbar-search {margin: 20px 0; width: 300px; text-align: center; float: right;
-    .search-query {position: absolute; left: 0; padding-right: 30px; top: 0; display: block; #font > .shorthand(15px, normal, 1); .box-sizing(border-box); width: 100%; height: 2em; background: #f0f0f0; .transition(all 0.5s); .placeholder(darken(@placeholderText, 20%));
+header {
+  height: 120px; 
+  #gradient > .vertical(); 
+  color: @white; 
+  text-align: center;
+  h2 {
+    color: #999; 
+    line-height: 70px; 
+    margin: 0; 
+    padding: 0; 
+    display: inline-block; 
+    float: left; 
+    background: asset-url('twitter-icon.png') no-repeat left center; 
+    padding-left: 50px;
+  }
+  form.navbar-search {
+    margin: 20px 0; 
+    width: 300px; 
+    text-align: center; 
+    float: right;
+    .search-query {
+      position: absolute; 
+      left: 0; 
+      padding-right: 30px; 
+      top: 0; 
+      display: block; 
+      #font > .shorthand(15px, normal, 1); .box-sizing(border-box); 
+      width: 100%; 
+      height: 2em; 
+      background: #f0f0f0; .transition(all 0.5s); .placeholder(darken(@placeholderText, 20%));
       &:focus {background: @white; .placeholder(@placeholderText);}
     }
-    .icon-search {position: absolute; right: 5px; top: 7px; .square(22px); color: #444;
-      input.nav-search {.square(22px); background: transparent; text-indent: -10000px; position: absolute; left: 0; top: 0; border: 0;}
+    .icon-search {
+      position: absolute; 
+      right: 5px; 
+      top: 7px; .square(22px); 
+      color: #444;
+      input.nav-search {.square(22px); 
+        background: transparent; 
+        text-indent: -10000px; 
+        position: absolute; 
+        left: 0; 
+        top: 0; 
+        border: 0;}
     }
-    .btn-group {position: absolute; right: -55px; color: #333; display: none; // hidden by default - geolocation support will make it visible
-      .dropdown-menu {text-align: left;
-        li {padding: 2px 12px;}
+    .btn-group {
+      position: absolute; 
+      right: -55px; 
+      color: #333; 
+      display: none; // hidden by default - geolocation support will make it visible
+      .dropdown-menu {
+        text-align: left;
+        li {
+          padding: 2px 12px;}
       }
-      .icon-cog {padding: 2px 0 0; display: inline-block;}
+      .icon-cog {
+        padding: 2px 0 0; 
+        display: inline-block;}
     }
   }
 }
@@ -89,14 +145,27 @@ header {height: 70px; #gradient > .vertical(); color: @white; text-align: center
 // Transitions
 a, input, textarea, button, a * {.transition(all 0.5s);}
 
-.visually-hidden {border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px;}
+.visually-hidden {
+  border: 0; 
+  clip: rect(0 0 0 0); 
+  height: 1px; 
+  margin: -1px; 
+  overflow: hidden; 
+  padding: 0; 
+  position: absolute; 
+  width: 1px;}
 
 // IE-specific styles
 .lt-ie9 {
-  header form.navbar-search  .btn-group .btn {padding-bottom: 5px;}
+  header form.navbar-search  .btn-group .btn {
+    padding-bottom: 5px;
+  }
 }
 
 // Geolocation support
-.geolocation header form.navbar-search { margin-right: 55px;
-  .btn-group {display: inline-block;}
+.geolocation header form.navbar-search { 
+  margin-right: 55px;
+  .btn-group {
+    display: inline-block;
+  }
 }
