@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 gem 'tweetstream'
 gem 'twitter'
+gem 'bundler'
 
 
 # Gems used only for assets and not required
@@ -15,8 +16,8 @@ gem 'twitter'
 group :assets do
   gem 'therubyracer', :platforms => :ruby
   gem 'less-rails'
-  gem "twitter-bootstrap-rails"
-  gem "coffee-rails"
+  gem 'twitter-bootstrap-rails'
+  gem 'coffee-rails'
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -25,13 +26,13 @@ group :test do
   gem 'rake'
   gem 'capybara'
   gem 'selenium-webdriver'
-  gem "shoulda-matchers"
+  gem 'shoulda-matchers'
+  gem 'cucumber-rails'
 end
 
 group :test, :development do
-  gem "rspec-rails"
-  gem "jslint_on_rails"
-  # gem 'evergreen', :require => 'evergreen/rails'
+  gem 'rspec-rails'
+  gem 'jslint_on_rails'
   gem 'factory_girl_rails'
 end
 
