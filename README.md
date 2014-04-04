@@ -1,13 +1,11 @@
-## Twearch
+## TweetLogic
 
-This is my attempt at implementing a small app that just searches Twitter
-with geolocation support.
+Twitter app that searches using geolocation
 
 ## Twitter API Auth
 
 If you'd like to test out this app, you'll need to get some Twitter API OAuth keys/secrets
-for both the app and the consumer. No offense, but I'm not feeling like sharing
-my OAuth credentials publicly ;)
+for both the app and the consumer.
 
 The credentials go into ```config/twitter.yml```
 
