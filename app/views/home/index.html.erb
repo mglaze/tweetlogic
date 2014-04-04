@@ -14,7 +14,7 @@
           </a>
           <ul class="dropdown-menu" role='menu'>
             <li>
-              <select id='geolocation' autocomplete='off'>
+              <select id='geolocation' autocomplete='on'>
                 <option value='' selected='selected'>Anywhere</option>
                 <option value='10mi'>Within 10 miles</option>
                 <option value='50mi'>Within 50 miles</option>
@@ -26,13 +26,6 @@
         </div>
       </div>
     <% end %>
-    <%= form_tag '#', :class => 'form-search navbar-search form-inline' do -%>
-      <%= label_tag 'query', 'Mentions', :class => 'visually-hidden' -%>
-      <%= text_field_tag 'query', '', :placeholder => 'Mentions', :autocomplete => 'on', :spellcheck => 'false', :class => 'search-query' -%>
-    <span class='icon-search icon-large'>
-        <%= submit_tag 'Mentions', :class => 'nav-search' -%>
-      </span>
-    <%end%>
   </section>
 </header>
 
@@ -40,7 +33,6 @@
   <h2>Results</h2>
 
   <div class='content'><!-- placeholder container for all content generated via templates --></div>
-
   <script type='text/html' id='no_search'>
     <div class='no-results'>Search results will show here, but you sort of need to search for something ...</div>
   </script>
@@ -71,6 +63,8 @@
               <strong class='fullname'>{{user.name}}</strong>
               <img class='avatar' src='{{user.profile_image_url}}' width='48px' height='48px' alt='{{user.name}}'/>
               <span class='username'>@{{user.screen_name}}</span>
+              <small class='timezone'>TimeZone: {{user.timezone}}</small>
+              <strong class='followers'>Followers: {{user.followers_count}}</strong>
             </a>
           </div>
           <p class='text'>{{{text}}}</p>
