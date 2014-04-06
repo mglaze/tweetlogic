@@ -18,7 +18,9 @@ class TwitterController < ApplicationController
     render :json => @results.to_json
   end
 
-  def data # transform the API data into a hash in the format I want(TwitterAPI = JSON)
+  def data
+    # transform the API data into a hash in the format I want(TwitterAPI = JSON)
+    # from https://dev.twitter.com/docs/api/1.1/get/search/tweets
     @results.statuses.map { |status|
       {
         :user => status[:user][:name],
