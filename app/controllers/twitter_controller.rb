@@ -3,8 +3,7 @@
 
 class TwitterController < ApplicationController
 
-  def search
-    # I don't expect this to occur, but handle anyways ...
+  def search # search for tweets with query
     if params[:q].blank?
       render :json => { :error => 'Please enter a search term.'}
       return
@@ -14,30 +13,27 @@ class TwitterController < ApplicationController
 
     opts = { :count => 15 }.merge(search_params)
 
-    results = Twitter.search(query, opts)
-    #Rails.logger.debug results.inspect
-    render :json => results.to_json
+    @results = Twitter.search(query, opts)
+
+    render :json => @results.to_json
   end
 
-  #def user
-    #query = params[:q]
-    #search_params = params.delete_if{|k,v| !%w(max_id include_entities since_id geocode).include?(k) }
-
-    #opts = { :count => 15 }.merge(search_params)
-
-    #user_hash = Twitter.user(query).to_hash
-    #render :json => user_hash.to_json
-  #end
-
-  #def index
-    #@messages = search
-    #respond_to do |format|
-      #format.html
-      #format.csv { send_data @messages.to_csv } do
-        #response.headers['Content-Type'] = 'text/csv; charset=UTF-8; header=present'
-        #response.headers['Content-Disposition'] = 'attachment; filename=Time.now.csv'
-      #end
-      #format.xls (send_data @messages.to_csv(col_sep: '\t'))
-   #end
-  #end
+  def data # transform the API data into a hash in the format I want(TwitterAPI = JSON)
+    @results.statuses.map { |status|
+      {
+        :user => status[:user][:name],
+        :date => status[:created_at],
+        :text => status[:text],
+        :location => status[:location]
+      }
+    }
+  end
+  def to_csv(data)
+    CSV.generate do |csv|
+      csv << data[0].keys.map{|k| k.to_s.capitalize}
+      data.each do |tweet|
+        csv << tweet.values
+      end
+    end
+  end
 end

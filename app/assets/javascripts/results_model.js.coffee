@@ -1,7 +1,7 @@
 
-window.twearch or= {}
-window.twearch.application or= {}
-window.twearch.application.models or= {}
+window.TweetLogic or= {}
+window.TweetLogic.application or= {}
+window.TweetLogic.application.models or= {}
 
 results = Backbone.Collection.extend {
   query: null
@@ -187,4 +187,4 @@ results = Backbone.Collection.extend {
     return @data.statuses
 }
 
-window.twearch.application.models.results = new results
+window.TweetLogic.application.models.results = new results

@@ -1,13 +1,13 @@
 #= require results_model
 
-window.twearch or= {}
-window.twearch.application or= {}
-window.twearch.application.views or= {}
-window.twearch.application.models or= {}
+window.TweetLogic or= {}
+window.TweetLogic.application or= {}
+window.TweetLogic.application.views or= {}
+window.TweetLogic.application.models or= {}
 
 results = Backbone.View.extend {
   el: 'section[role=results]'
-  model: window.twearch.application.models.results
+  model: window.TweetLogic.application.models.results
   content: null
   resultsTemplate: null
 
@@ -66,5 +66,5 @@ results = Backbone.View.extend {
 }
 
 jQuery ->
-  window.twearch.application.views.results = new results
+  window.TweetLogic.application.views.results = new results
   

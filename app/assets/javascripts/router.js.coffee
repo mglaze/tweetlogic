@@ -1,8 +1,8 @@
 #= require searcher
 #= require results_view
 
-window.twearch or= {}
-window.twearch.application or= {}
+window.TweetLogic or= {}
+window.TweetLogic.application or= {}
 
 router = Backbone.Router.extend {
   initialize: ->
@@ -14,14 +14,14 @@ router = Backbone.Router.extend {
       @clear()
 
   clear: ->
-    window.twearch.application.views.searcher.set('')
-    window.twearch.application.models.results.search(null)
+    window.TweetLogic.application.views.searcher.set('')
+    window.TweetLogic.application.models.results.search(null)
 
   search: (q) ->
-    window.twearch.application.views.searcher.set(q)
-    window.twearch.application.models.results.search(q)
+    window.TweetLogic.application.views.searcher.set(q)
+    window.TweetLogic.application.models.results.search(q)
 }
 
 jQuery ->
   Backbone.history.start()
-  window.twearch.application.router = new router
+  window.TweetLogic.application.router = new router

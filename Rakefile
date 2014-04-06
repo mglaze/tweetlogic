@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Twearch::Application.load_tasks
+TweetLogic::Application.load_tasks

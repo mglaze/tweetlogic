@@ -1,7 +1,7 @@
 
-window.twearch or= {}
-window.twearch.application or= {}
-window.twearch.application.views or= {}
+window.TweetLogic or= {}
+window.TweetLogic.application or= {}
+window.TweetLogic.application.views or= {}
 
 searcher = Backbone.View.extend {
   el: 'header',
@@ -16,7 +16,7 @@ searcher = Backbone.View.extend {
 
   search: ->
     safeQuery = encodeURIComponent(@$el.find('#query').val())
-    window.twearch.application.router.navigate(safeQuery, true)
+    window.TweetLogic.application.router.navigate(safeQuery, true)
     false # block form POST
 
   preventClose: (e) ->
@@ -25,7 +25,7 @@ searcher = Backbone.View.extend {
 
   setLocation: (loc) ->
     @geolocation = loc
-    window.twearch.application.models.results.setLocation(@geolocation)
+    window.TweetLogic.application.models.results.setLocation(@geolocation)
 
     @$el.find('.btn.disabled').removeClass('disabled')
     @
@@ -33,10 +33,10 @@ searcher = Backbone.View.extend {
   geolocationChanged: ->
     if @$el.find('#geolocation').val() != ''
       # set geolocation on model
-      window.twearch.application.models.results.setProximity(@$el.find('#geolocation').val())
+      window.TweetLogic.application.models.results.setProximity(@$el.find('#geolocation').val())
     else
       # clear geolocation on model
-      window.twearch.application.models.results.setProximity(null)
+      window.TweetLogic.application.models.results.setProximity(null)
 
     @
 
@@ -47,9 +47,9 @@ searcher = Backbone.View.extend {
 }
 
 jQuery ->
-  window.twearch.application.views.searcher = new searcher
+  window.TweetLogic.application.views.searcher = new searcher
   # drive geolocation
   if navigator.geolocation
     navigator.geolocation.getCurrentPosition((loc) ->
-      window.twearch.application.views.searcher.setLocation(loc)
+      window.TweetLogic.application.views.searcher.setLocation(loc)
     )

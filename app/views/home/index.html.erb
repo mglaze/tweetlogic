@@ -1,30 +1,32 @@
 <header>
   <section>
     <h2>TweetLogic</h2>
+
     <%= form_tag '#', :class => 'form-search navbar-search form-inline' do -%>
-      <%= label_tag 'query', 'Search', :class => 'visually-hidden' -%>
-      <%= text_field_tag 'query', '', :placeholder => 'Search', :autocomplete => 'on', :spellcheck => 'false', :class => 'search-query' -%>
-      <span class='icon-search icon-large'>
-        <%= submit_tag 'Search', :class => 'nav-search' -%>
+        <%= label_tag 'query', 'Search', :class => 'visually-hidden' -%>
+        <%= text_field_tag 'query', '', :placeholder => 'Search', :autocomplete => 'off', :spellcheck => 'false', :class => 'search-query' -%>
+        <span class='icon-search icon-large'>
+        <%= submit_tag 'Search', :class => 'nav-search' -%>
       </span>
-      <div class="btn-group pull-left">
-        <div class='dropdown'>
-          <a class="btn dropdown-toggle disabled" data-toggle="dropdown" href="javascript:void(0)">
-            <span class='icon-cog icon-large'></span>
-          </a>
-          <ul class="dropdown-menu" role='menu'>
-            <li>
-              <select id='geolocation' autocomplete='on'>
-                <option value='' selected='selected'>Anywhere</option>
-                <option value='10mi'>Within 10 miles</option>
-                <option value='50mi'>Within 50 miles</option>
-                <option value='100mi'>Within 100 miles</option>
-                <option value='250mi'>Within 250 miles</option>
-              </select>
-            </li>
-          </ul>
+        <div class="btn-group pull-left">
+          <div class='dropdown'>
+            <a class="btn dropdown-toggle disabled" data-toggle="dropdown" href="javascript:void(0)">
+              <span class='icon-cog icon-large'></span>
+            </a>
+
+            <ul class="dropdown-menu" role='menu'>
+              <li>
+                <select id='geolocation' autocomplete='off'>
+                  <option value='' selected='selected'>Anywhere</option>
+                  <option value='10mi'>Within 10 miles</option>
+                  <option value='50mi'>Within 50 miles</option>
+                  <option value='100mi'>Within 100 miles</option>
+                  <option value='250mi'>Within 250 miles</option>
+                </select>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
     <% end %>
   </section>
 </header>
@@ -33,6 +35,7 @@
   <h2>Results</h2>
 
   <div class='content'><!-- placeholder container for all content generated via templates --></div>
+
   <script type='text/html' id='no_search'>
     <div class='no-results'>Search results will show here, but you sort of need to search for something ...</div>
   </script>
@@ -63,8 +66,7 @@
               <strong class='fullname'>{{user.name}}</strong>
               <img class='avatar' src='{{user.profile_image_url}}' width='48px' height='48px' alt='{{user.name}}'/>
               <span class='username'>@{{user.screen_name}}</span>
-              <small class='timezone'>TimeZone: {{user.timezone}}</small>
-              <strong class='followers'>Followers: {{user.followers_count}}</strong>
+              <strong class= 'followers'> Followers: {{user.followers_count}}</strong>
             </a>
           </div>
           <p class='text'>{{{text}}}</p>
