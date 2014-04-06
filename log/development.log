@@ -27180,3 +27180,59 @@ Processing by TwitterController#search as JSON
   Parameters: {"since_id"=>"452873215027982336", "q"=>"thoughtworks", "include_entities"=>"1"}
  PARAMETERS: {"since_id"=>"452873215027982336", "include_entities"=>"1"}
 Completed 200 OK in 1856ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=452873537808629760&q=thoughtworks&include_entities=1" for 127.0.0.1 at 2014-04-06 14:21:50 -0400
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"452873537808629760", "q"=>"thoughtworks", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"452873537808629760", "include_entities"=>"1"}
+Completed 200 OK in 948ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=452873789983186944&q=thoughtworks&include_entities=1" for 127.0.0.1 at 2014-04-06 14:22:51 -0400
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"452873789983186944", "q"=>"thoughtworks", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"452873789983186944", "include_entities"=>"1"}
+Completed 200 OK in 1316ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=452874051430916096&q=thoughtworks&include_entities=1" for 127.0.0.1 at 2014-04-06 14:23:54 -0400
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"452874051430916096", "q"=>"thoughtworks", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"452874051430916096", "include_entities"=>"1"}
+Completed 200 OK in 769ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=452874310512672768&q=thoughtworks&include_entities=1" for 127.0.0.1 at 2014-04-06 14:24:55 -0400
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"452874310512672768", "q"=>"thoughtworks", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"452874310512672768", "include_entities"=>"1"}
+Completed 200 OK in 5879ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=452874586687041537&q=thoughtworks&include_entities=1" for 127.0.0.1 at 2014-04-06 14:26:01 -0400
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"452874586687041537", "q"=>"thoughtworks", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"452874586687041537", "include_entities"=>"1"}
+Completed 200 OK in 783ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=452874841931407360&q=thoughtworks&include_entities=1" for 127.0.0.1 at 2014-04-06 14:27:02 -0400
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"452874841931407360", "q"=>"thoughtworks", "include_entities"=>"1"}
+ PARAMETERS: {"since_id"=>"452874841931407360", "include_entities"=>"1"}
+Completed 200 OK in 935ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/twitter/search?since_id=452875098643771392&q=thoughtworks&include_entities=1" for 127.0.0.1 at 2014-04-06 14:28:03 -0400
+Processing by TwitterController#search as JSON
+  Parameters: {"since_id"=>"452875098643771392", "q"=>"thoughtworks", "include_entities"=>"1"}
+Completed 500 Internal Server Error in 5998ms
+
+Twitter::Error::ClientError (execution expired):
+  app/controllers/twitter_controller.rb:16:in `search'
+
+
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/michaela/.rvm/gems/ruby-1.9.3-p392/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
